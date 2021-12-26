@@ -4,7 +4,7 @@ pragma solidity ^0.8.10;
 // Rock Paper Scissors - for now it's game with a bot, but shortly will be updated and imported into 2 players webapp game.
 
 contract RPS{
-    // hashed so the move is not so visible
+    // hashed so the move is not so easy visible
     bytes32 constant ROCK = keccak256(abi.encodePacked("ROCK"));
     bytes32 constant PAPER = keccak256(abi.encodePacked("PAPER"));
     bytes32 constant SCISSORS = keccak256(abi.encodePacked("SCISSORS"));
