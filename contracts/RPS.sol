@@ -37,7 +37,7 @@ contract RPS{
     // play function which returns if you win or not
     function play(uint8 _choice) public tick {
         bytes32 enemyMove = choiceToMove(uint8(uint256(keccak256(abi.encodePacked(block.timestamp, block.difficulty,counter)))%3));
-        bytes32 playerMove = choiceToMove(_choice);
+        bytes32 playerMove = choiceToMove(_choice % 3);
         bool win;
         if(playerMove == ROCK && enemyMove == PAPER){win = false;}
         else if(playerMove == ROCK && enemyMove == SCISSORS){win = true;}
