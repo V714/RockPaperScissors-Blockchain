@@ -25,10 +25,10 @@ contract RPS{
 
     /*
     // For test purposes only
-    function testChoiceToMove(uint8 _choice) public pure returns (bytes32) {
+    function testChoiceToMove(uint8 _choice) public pure returns (bytes32) { // because original function is private
         return choiceToMove(_choice);
     }
-    function getMoves() public pure returns (bytes32,bytes32,bytes32) {
+    function getMoves() public pure returns (bytes32,bytes32,bytes32) { // just for test cases
         return (ROCK,PAPER,SCISSORS);
     } 
     */
