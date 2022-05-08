@@ -1,3 +1,6 @@
+Website:
+https://github.com/V714/RPS-Blockchain
+
 # RockPaperScissors-Blockchain
 **Simple Rock Paper Scissors game on blockchain (for now with a bot)**
 
